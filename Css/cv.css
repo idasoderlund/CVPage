@@ -11,11 +11,11 @@
 
 .cvAllContent {
   display: grid;
-  grid-template-columns: repeat1fr 1fr;
+  grid-template-columns: repeat1fr (2, 1fr);
   font-family: "lancelot";
   text-transform: capitalize;
   color: #780c28;
-  gap: 20px;
+  gap: 10px;
 }
 
 .cvAllContent h2 {
@@ -59,7 +59,6 @@
 .references {
   display: flex;
   flex-direction: column;
-  column-gap: ;
 }
 
 .cvAllContent p {

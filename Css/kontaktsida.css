@@ -1,0 +1,29 @@
+.contactText {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText h1 {
+  color: #780c28;
+  font-family: "lancelot";
+  font-size: 50px;
+  text-decoration: underline #780c28;
+  margin-top: 20px;
+}
+
+.contactText h2 {
+  color: #000;
+  font-family: "dosis";
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.contactText p {
+  color: #000;
+  font-family: "dosis";
+  margin: 50px;
+}
