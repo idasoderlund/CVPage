@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #fbfbfb;
+}
+.AllContent {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/*HEADER-SECTION-------------------------------------------------------------------------------------------------------------------------------*/
+.BarField {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.Navigation-Menu {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #780c28;
+  font-family: "Quintessential";
+}
+@media (max-width: 768px) {
+  .Navigation-Menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .Navigation-Menu {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*MAIN-SECTION------------------------------------------------------------------------------------------------------------------------------*/
+/*PROFILBILD OCH PROFILTEXT/LÄNK*/
+
+.Main-Field {
+  box-sizing: border-box;
+  flex: 1;
+}
+.Profile-Row {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .Profile-Row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.profile-pic {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.profile-pic img {
+  box-sizing: border-box;
+  flex: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 60px;
+  margin-right: 20px;
+  max-height: 100%;
+  max-width: 50%;
+}
+
+.AboutMe-Area {
+  box-sizing: border-box; /*redan*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: dotted;
+  border-radius: 20px;
+  border-color: #780c28;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 20px;
+}
+
+.profile-Rubric {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  font-family: "lancelot";
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #780c28;
+}
+.AboutMe-Area p {
+  margin-top: 1em;
+  font-family: "dosis";
+}
+.AboutMe-Area a {
+  margin-top: 1em;
+  font-family: "dosis";
+  color: #780c28;
+}
+/* projectcards kolumner------------------------------------------------------------------------------------------------------------------->*/
+/*PROJECTCARDS I 4 KOLUMNER*/
+
+#projectsRubric {
+  font-family: "lancelot";
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #780c28;
+  margin-bottom: 10px;
+}
+
+.projectTitles {
+  width: 100%;
+  color: #780c28;
+}
+
+.Container {
+  box-sizing: border-box;
+  display: grid; /* nöjd*/
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ProjectCards {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /*lade till för att flytta uppp rubrik i PC*/
+  justify-content: flex-start; /* har egentligen center*/
+  align-items: flex-start; /*lade till fär att ustera inehål till väsnter rubrik i PC*/
+  position: relative; /* placerar text ovanpå bild*/
+  overflow: hidden; /* döljer överflöd av bild*/
+  flex-direction: column;
+  border-radius: 20px;
+  margin-bottom: 1em;
+  height: 50vh;
+  width: 90%;
+  background-color: plum;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.projectBackground {
+  display: flex;
+  width: 100%; /* har egentligen 50%*/
+  height: 100%; /* har egentligen 80%*/
+  object-fit: cover; /* gör att bild täcker hela området*/
+  position: absolute; /* gör en absolut posiitonering av bild*/
+  top: 0;
+  left: 0;
+  z-index: 1; /* gör så bilden ligger bakom text*/
+}
+
+h3,
+.projectLinks {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2; /* gör så texten ligger ovanpå bild*/
+  padding: 10px; /* utrymme mellan text och kant*/
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.projectLinks {
+  color: #780c28;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*FOOTER-SECTION--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Footer-Field {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #f5f5f5;
+  font-family: "Quintessential";
+}
+
+.Footer-Links {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #780c28;
+}
+
+.Footer-Links a {
+  margin: 0 30px;
+}
+@media (max-width: 768px) {
+  .Footer-Links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .Footer-Links {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,68 @@
+.mainFeield {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  border: dotted #780c28;
+  border-radius: 20px;
+}
+
+.cvAllContent {
+  display: grid;
+  grid-template-columns: repeat1fr 1fr;
+  font-family: "lancelot";
+  text-transform: capitalize;
+  color: #780c28;
+  gap: 20px;
+}
+
+.cvAllContent h2 {
+  grid-column: span 2;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "lancelot";
+  text-transform: capitalize;
+  color: #780c28;
+  margin: 20px;
+}
+
+.mainFeield h1 {
+  color: #780c28;
+  font-family: "lancelot";
+  font-size: 50px;
+  text-decoration: underline #780c28;
+}
+
+/*.mainFeield h2 {
+  color: #780c28;
+  font-family: "lancelot";
+  font-size: 40x;
+  margin: 20px;
+  text-decoration: underline #780c28;
+}*/
+
+.cvCategory {
+  font-family: "lancelot";
+  color: #780c28;
+}
+.cvTitles {
+  color: #780c28;
+  font-family: "dosis";
+}
+
+.workExperince,
+.education,
+.languages,
+.computerSkills,
+.driversLicens,
+.references {
+  display: flex;
+  flex-direction: column;
+  column-gap: ;
+}
+
+.cvAllContent p {
+  color: #000;
+  font-family: "dosis";
+}
