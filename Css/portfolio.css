@@ -1,0 +1,55 @@
+html,
+.body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-Field {
+  flex: 1;
+  height: 90%;
+}
+
+.portfolioContent {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "lancelot";
+  text-transform: capitalize;
+  color: #780c28;
+  grid-column: span 2;
+  margin-bottom: 20px;
+}
+
+.portfolio-Field h1 {
+  color: #780c28;
+  font-family: "lancelot";
+  font-size: 50px;
+  text-decoration: underline #780c28;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioContent article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100px;
+}
+
+.portfolioContent h2 {
+  font-family: "dosis";
+  text-transform: capitalize;
+  color: #000;
+  margin: 20px;
+  font-size: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: capitalize;
+}

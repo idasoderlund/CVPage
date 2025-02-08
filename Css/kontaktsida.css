@@ -1,20 +1,27 @@
-.contactText {
+.contactField {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex: 1;
+  height: 90%;
 }
 
-.contactText h1 {
+.contantTexts h1 {
   color: #780c28;
   font-family: "lancelot";
   font-size: 50px;
   text-decoration: underline #780c28;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.contactText h2 {
+.contantTexts h2 {
   color: #000;
   font-family: "dosis";
   font-size: 25px;
@@ -22,7 +29,7 @@
   font-weight: 300;
 }
 
-.contactText p {
+.contantTexts p {
   color: #000;
   font-family: "dosis";
   margin: 50px;

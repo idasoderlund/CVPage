@@ -10,12 +10,12 @@
 }
 
 .cvAllContent {
+  gap: 10px;
   display: grid;
   grid-template-columns: repeat1fr (2, 1fr);
   font-family: "lancelot";
   text-transform: capitalize;
   color: #780c28;
-  gap: 10px;
 }
 
 .cvAllContent h2 {
