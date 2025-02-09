@@ -89,7 +89,7 @@ body {
 }
 
 .AboutMe-Area {
-  box-sizing: border-box; /*redan*/
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -145,7 +145,7 @@ body {
 
 .Container {
   box-sizing: border-box;
-  display: grid; /* nöjd*/
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -169,8 +169,8 @@ body {
 
 .projectBackground {
   display: flex;
-  width: 100%; /* har egentligen 50%*/
-  height: 100%; /* har egentligen 80%*/
+  width: 100%;
+  height: 100%;
   object-fit: cover; /* gör att bild täcker hela området*/
   position: absolute; /* gör en absolut posiitonering av bild*/
   top: 0;
