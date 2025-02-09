@@ -10,12 +10,15 @@
 }
 
 .cvAllContent {
-  gap: 10px;
+  gap: 40px;
   display: grid;
-  grid-template-columns: repeat1fr (2, 1fr);
+  grid-template-columns: repeat (2, 1fr);
+  grid-template-rows: repeat(3, auto);
   font-family: "lancelot";
   text-transform: capitalize;
   color: #780c28;
+  margin-bottom: 40px;
+  margin-left: 90px;
 }
 
 .cvAllContent h2 {
@@ -34,14 +37,6 @@
   text-decoration: underline #780c28;
 }
 
-/*.mainFeield h2 {
-  color: #780c28;
-  font-family: "lancelot";
-  font-size: 40x;
-  margin: 20px;
-  text-decoration: underline #780c28;
-}*/
-
 .cvCategory {
   font-family: "lancelot";
   color: #780c28;
@@ -52,16 +47,19 @@
 }
 
 .workExperince,
-.education,
 .languages,
+.driversLicens {
+  grid-column: 1;
+}
+
+.education,
 .computerSkills,
-.driversLicens,
 .references {
-  display: flex;
-  flex-direction: column;
+  grid-column: 2;
 }
 
 .cvAllContent p {
   color: #000;
   font-family: "dosis";
+  padding-bottom: 20px;
 }
