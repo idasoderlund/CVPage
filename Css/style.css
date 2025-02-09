@@ -79,8 +79,6 @@ body {
 .profile-pic img {
   box-sizing: border-box;
   flex: auto;
-  max-height: 100%;
-  max-width: 100%;
   object-fit: cover;
   border-radius: 60px;
   margin-right: 20px;
