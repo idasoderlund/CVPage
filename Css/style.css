@@ -84,6 +84,7 @@ body {
   margin-right: 20px;
   max-height: 100%;
   max-width: 50%;
+  flex-grow: 1; /*????*/
 }
 
 .AboutMe-Area {
@@ -158,6 +159,7 @@ body {
   flex-direction: column;
   border-radius: 20px;
   margin-bottom: 3em;
+  margin-left: 20px;
   height: 50vh;
   width: 90%;
   background-color: plum;
