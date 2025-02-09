@@ -79,6 +79,9 @@ body {
 .profile-pic img {
   box-sizing: border-box;
   flex: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   object-fit: cover;
   border-radius: 60px;
   margin-right: 20px;
@@ -112,6 +115,20 @@ body {
   color: #780c28;
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .profile-Rubric {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .AboutMe-Area p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+}
+
 .AboutMe-Area p {
   margin-top: 1em;
   padding-top: 1em;
