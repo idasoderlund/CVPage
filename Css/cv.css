@@ -1,3 +1,11 @@
+.aboutmecolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #780c28;
+  color: #fff;
+}
+
 .mainFeield {
   display: flex;
   box-sizing: border-box;

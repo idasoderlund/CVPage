@@ -32,6 +32,15 @@ body {
   color: #780c28;
   font-family: "Quintessential";
 }
+
+.homecolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #780c28;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .Navigation-Menu {
     display: grid;
@@ -84,10 +93,33 @@ body {
   justify-content: center;
   object-fit: cover;
   border-radius: 60px;
-  margin-right: 20px;
-  max-height: 100%;
-  max-width: 50%;
-  flex-grow: 1; /*????*/
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .profile-pic img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) and(max-width: 768px) {
+  .profile-pic img {
+    width: 50%;
+    height: auto;
+
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+  .profile-pic img {
+    width: 100%;
+    height: auto;
+    max-height: 900px;
+    margin: 0;
+  }
 }
 
 .AboutMe-Area {
@@ -101,8 +133,8 @@ body {
   border-color: #780c28;
   padding-left: 2em;
   padding-right: 2em;
-  margin-left: 20px;
-  margin-right: 20px;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
   padding-top: 30px;
 }
 

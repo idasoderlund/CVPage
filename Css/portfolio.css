@@ -7,6 +7,14 @@ html,
   flex-direction: column;
 }
 
+.portfoliocolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #780c28;
+  color: #fff;
+}
+
 .portfolio-Field {
   flex: 1;
   height: 90%;
