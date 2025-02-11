@@ -39,6 +39,7 @@ body {
   align-items: center;
   background: #780c28;
   color: #fff;
+  margin-right: 20px;
 }
 
 @media (max-width: 768px) {
