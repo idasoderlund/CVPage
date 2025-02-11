@@ -97,23 +97,23 @@ body {
   margin-left: 20px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1px) and (max-width: 767px) {
   .profile-pic img {
     width: 100%;
     height: auto;
     margin: 0;
   }
-}
 
-/*
-@media (min-width: 600px) and(max-width: 768px) {
-  .profile-pic img {
+  .AboutMe-Area {
     width: 100%;
-    height: 100%;
-    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .Profile-Row {
+    padding: 0;
   }
 }
-*/
 
 @media (min-width: 768px) and (max-width: 1920px) {
   .profile-pic img {
