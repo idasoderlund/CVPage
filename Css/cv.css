@@ -7,7 +7,6 @@
   color: #fff;
   margin-right: 20px;
 }
-
 .mainFeield {
   display: flex;
   box-sizing: border-box;
@@ -20,17 +19,14 @@
   margin-left: 70px;
   margin-right: 50px;
 }
-
 .container2 {
   padding: 20px;
 }
-
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
-
 .cvAllContent {
   box-sizing: border-box;
   gap: 40px;
@@ -40,7 +36,6 @@
   color: #780c28;
   margin-bottom: 40px;
 }
-
 @media (max-width: 600px) {
   .gridContainer {
     grid-template-columns: 1fr;
@@ -58,7 +53,6 @@
     max-width: 100%;
   }
 }
-
 @media (min-width: 600px) and (max-width: 1920px) {
   .gridContainer {
     grid-template-columns: repeat(2, 1fr);
@@ -76,7 +70,6 @@
     max-width: 100%;
   }
 }
-
 .workExperince,
 .education,
 .languages,
@@ -86,7 +79,6 @@
   width: 100%;
   box-sizing: border-box;
 }
-
 .cvAllContent h2 {
   grid-column: span 2;
   font-family: "lancelot";
@@ -94,14 +86,12 @@
   color: #780c28;
   margin: 20px;
 }
-
 .mainFeield h1 {
   color: #780c28;
   font-family: "lancelot";
   font-size: 50px;
   text-decoration: underline #780c28;
 }
-
 .cvCategory {
   font-family: "lancelot";
   color: #780c28;
@@ -110,7 +100,6 @@
   color: #780c28;
   font-family: "dosis";
 }
-
 .workExperince,
 .education,
 .languages,

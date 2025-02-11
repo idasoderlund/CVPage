@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   box-sizing: border-box;
@@ -14,8 +13,6 @@ body {
   box-sizing: border-box;
   height: 100vh;
 }
-
-/*HEADER-SECTION-------------------------------------------------------------------------------------------------------------------------------*/
 .BarField {
   box-sizing: border-box;
   display: flex;
@@ -24,7 +21,6 @@ body {
   padding-bottom: 20px;
   background-color: #f5f5f5;
 }
-
 .Navigation-Menu {
   box-sizing: border-box;
   display: grid;
@@ -32,7 +28,6 @@ body {
   color: #780c28;
   font-family: "Quintessential";
 }
-
 .homeOpen {
   display: flex;
   justify-content: center;
@@ -41,7 +36,6 @@ body {
   color: #fff;
   margin-right: 20px;
 }
-
 @media (max-width: 768px) {
   .Navigation-Menu {
     display: grid;
@@ -54,10 +48,6 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
-/*MAIN-SECTION------------------------------------------------------------------------------------------------------------------------------*/
-/*PROFILBILD OCH PROFILTEXT/LÄNK*/
-
 .Main-Field {
   box-sizing: border-box;
 }
@@ -77,7 +67,6 @@ body {
     align-items: flex-start;
   }
 }
-
 .profile-pic {
   box-sizing: border-box;
   display: flex;
@@ -86,7 +75,6 @@ body {
   margin-right: 0;
   margin-bottom: 10px;
 }
-
 .profile-pic img {
   box-sizing: border-box;
   flex: auto;
@@ -97,7 +85,6 @@ body {
   border-radius: 60px;
   margin-left: 20px;
 }
-
 @media (min-width: 1px) and (max-width: 767px) {
   .profile-pic img {
     width: 100%;
@@ -115,7 +102,6 @@ body {
     padding: 0;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1920px) {
   .profile-pic img {
     width: 100%;
@@ -124,7 +110,6 @@ body {
     margin: 0;
   }
 }
-
 .AboutMe-Area {
   box-sizing: border-box;
   display: flex;
@@ -138,7 +123,6 @@ body {
   padding-right: 2em;
   padding-top: 30px;
 }
-
 .profile-Rubric {
   display: flex;
   margin: 0;
@@ -148,7 +132,6 @@ body {
   color: #780c28;
   text-decoration: underline;
 }
-
 @media (max-width: 600px) {
   .profile-Rubric {
     font-size: 30px;
@@ -161,7 +144,6 @@ body {
     padding: 0;
   }
 }
-
 .AboutMe-Area p {
   margin-top: 1em;
   padding-top: 1em;
@@ -173,9 +155,6 @@ body {
   color: #780c28;
   padding-top: 20px;
 }
-/* projectcards kolumner------------------------------------------------------------------------------------------------------------------->*/
-/*PROJECTCARDS I 4 KOLUMNER*/
-
 #projectsRubric {
   font-family: "lancelot";
   text-transform: capitalize;
@@ -186,18 +165,15 @@ body {
   padding-left: 20px;
   text-decoration: underline;
 }
-
 .projectTitles {
   width: 100%;
   color: #780c28;
 }
-
 .Container {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-
 .ProjectCards {
   box-sizing: border-box;
   display: flex;
@@ -216,7 +192,6 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3), 0px 2px 10px rgba(0, 0, 0, 0.1);
   transition: 0.2s;
 }
-
 .projectBackground {
   display: flex;
   width: 100%;
@@ -227,7 +202,6 @@ body {
   left: 0;
   z-index: 1; /* gör så bilden ligger bakom text*/
 }
-
 h3,
 .projectLinks {
   display: flex;
@@ -238,20 +212,15 @@ h3,
   background-color: #f5f5f5;
   width: 140%;
 }
-
 .projectLinks {
   color: #780c28;
 }
-
 @media (max-width: 768px) {
   .Container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-/*FOOTER-SECTION--------------------------------------------------------------------------------------------------------------------------------------*/
-
 .Footer-Field {
   box-sizing: border-box;
   display: flex;
@@ -262,14 +231,12 @@ h3,
   background-color: #f5f5f5;
   font-family: "Quintessential";
 }
-
 .Footer-Links {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: #780c28;
 }
-
 .Footer-Links a {
   margin: 0 30px;
 }

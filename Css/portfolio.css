@@ -6,7 +6,6 @@ html,
   display: flex;
   flex-direction: column;
 }
-
 .portfolioOpen {
   display: flex;
   justify-content: center;
@@ -15,7 +14,6 @@ html,
   color: #fff;
   margin-right: 20px;
 }
-
 #portfolioRubric {
   display: flex;
   justify-content: center;
