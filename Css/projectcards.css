@@ -11,7 +11,7 @@
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-.projectdivs {
+.projectDescription {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -65,12 +65,7 @@
   border-radius: 60px;
   margin-left: 30px;
 }
-.projectdivs {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .analysingLinks {
   box-sizing: border-box;
   display: flex;
