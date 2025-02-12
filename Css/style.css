@@ -169,7 +169,7 @@ body {
   width: 100%;
   color: #780c28;
 }
-.Container {
+.projectContainer {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -216,7 +216,7 @@ h3,
   color: #780c28;
 }
 @media (max-width: 768px) {
-  .Container {
+  .projectContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
