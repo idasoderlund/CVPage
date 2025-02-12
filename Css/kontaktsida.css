@@ -17,29 +17,29 @@
   padding: 10px; /*hade inte alls*/
 }
 @media (max-width: 600px) {
-  .contentTexts h1 {
+  .contactContent h1 {
     font-size: 30px;
     text-align: center;
   }
 
-  .contentTexts h2 {
+  .contactContent h2 {
     font-size: 18px;
     text-align: center;
   }
 
-  .contentTexts p {
+  .contactContent p {
     font-size: 16px;
     text-align: center;
     max-width: 90%;
     word-wrap: break-word;
   }
 
-  .contentTexts div {
+  .contactContent div {
     width: 100%;
     margin-bottom: 10px;
   }
 }
-.contentTexts h1 {
+.contactContent h1 {
   color: #780c28;
   font-family: "lancelot";
   font-size: 50px;
@@ -51,14 +51,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.contentTexts h2 {
+.contactContent h2 {
   color: #000;
   font-family: "dosis";
   font-size: 25px;
   margin-top: 30px;
   font-weight: 300;
 }
-.contentTexts p {
+.contactContent p {
   display: flex;
   flex-direction: column;
   justify-content: start;
