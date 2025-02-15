@@ -13,8 +13,8 @@
   justify-content: start;
   align-items: center;
   flex: 1;
-  height: auto; /*hade 90%*/
-  padding: 10px; /*hade inte alls*/
+  height: auto;
+  padding: 10px;
 }
 @media (max-width: 600px) {
   .contactContent h1 {
